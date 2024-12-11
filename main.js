@@ -1,5 +1,5 @@
 // creare un ciclo for che esegue 100 cicli
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     // all'interno del for, creare una condizione if che calcola il resto %
     if((i % 3 === 0) && (i % 5 === 0)){
         console.log("FizzBuzz");
